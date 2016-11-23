@@ -9,8 +9,6 @@ defmodule Perseus.Games do
                 {:error, "max limit on request is 100"}
             true ->
                 Base.request path
-        end
-
-        
+        end   
     end
 end
